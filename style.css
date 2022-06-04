@@ -1,0 +1,20 @@
+body { 
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* top,right,bottom,left*/
+
+header{
+    padding: 20x 35px;
+    background-color: #39a6b2;
+}
+h1 {
+    font-weight: bold;
+    color: #fce138;
+    font-size: 36px;
+    margin: 0;
+ }
+ header a {
+     color: #fce138;
+ }
