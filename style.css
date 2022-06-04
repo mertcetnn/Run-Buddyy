@@ -1,4 +1,6 @@
-body { 
+   * { margin: 0px;
+padding: 0px;}
+  body { 
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -17,4 +19,25 @@ h1 {
  }
  header a {
      color: #fce138;
+     text-decoration: none;
  }
+ header nav { 
+     float: right;
+     margin: 7px 0px;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0px 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0px;
+    display: inline;
+}
