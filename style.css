@@ -68,7 +68,9 @@ section {
 .hero { background-image: url(https://static.fullstack-bootcamp.com/module-1/hero-bg.jpg);
 height: 600px;
 background-position: center;
-background-size: cover;}
+background-size: cover;
+position: relative;}
+
 .hero-form{ 
     background-color: #fce138;
     padding: 20px;
@@ -76,8 +78,8 @@ background-size: cover;}
     color: #024e76;
     border: solid 3px #024e76;
     position: absolute;
-    bottom: 120px;
-    right: 140px;
+    bottom: 0px;
+    right: 0px;
     
 }
 .hero-form p {
@@ -178,7 +180,8 @@ background-size: cover;}
         margin: 0 auto 30px auto;
         background:  #024e76;
         color: #fce138;
-        overflow: hidden;
+        overflow: auto;
+        
     }
  .trainer img{
      width: 35%;
